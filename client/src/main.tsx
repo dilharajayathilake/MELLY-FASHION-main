@@ -61,7 +61,7 @@ const queryClient = new QueryClient()
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <StoreProvider>
-    <PayPalScriptProvider options={{ 'clientId': 'AaP27Gor7YDm_ZK4u7tnI4QmRmIwlr_gRB2udVgNilJ83mjnKRfaaiCSHPY-B9YLs6Fg3tobfrymyvri' }} deferLoading={true}>
+    <PayPalScriptProvider options={{ 'clientId': 'Aavkx2j02nHQazP6RQqlU9QLhu8RPe8bCUHvS_yVd-j2pU1ANCH5La6mZux1scIL-ncQX84eFN1zXjCt' }} deferLoading={true}>
         <HelmetProvider>
           <QueryClientProvider client={queryClient}>
             <RouterProvider router={router} />
