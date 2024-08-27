@@ -9,6 +9,7 @@ export type CartItem = {
 }
 export type ShippingAddress = {
   location: any
+  //location: any
   fullName: string
   address: string
   city: string
